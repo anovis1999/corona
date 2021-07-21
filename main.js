@@ -13,7 +13,6 @@ const onSubmit = (fullName,daysForBidud,email) =>{
         let cell4 = row.insertCell(3);
 
         let rowId = row.rowIndex
-        console.log(rowId)
         cell1.innerHTML = fullName;
         cell2.innerHTML = nowDate;
         cell3.innerHTML = email;
