@@ -13,3 +13,25 @@ td, th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+#myForm{
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 16%;
+}
+button{
+    background-color: cornflowerblue;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-style: white; */
+    border-radius: 10%;
+}
+input {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }

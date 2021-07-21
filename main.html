@@ -4,32 +4,35 @@
     <link rel="stylesheet" href="main.css">
     <body dir="rtl">
 
-<h2>טופס כניסה לבידוד</h2>
 
-<form>
+<form >
+  <div id="myForm">
+    <h2>טופס כניסה לבידוד</h2>
+
   <label for="fullName">שם מלא</label><br>
   <input type="text" id="fullName" name="fullName"><br>
-  <label for="days">ימים לבידוד</label><br>
-  <input type="text" id="days" name="days"><br><br>
-  <input type="submit" onclick="onSubmit(document.getElementById('fullName').value)" value="Submit">
+  <label for="daysForBidud">ימים לבידוד</label><br>
+  <input type="text" id="daysForBidud" name="daysForBidud"><br>
+  <label for="email">מייל</label><br>
+  <input type="email" id="email" name="email">
+  <br><br>
+  <!-- <button type="button" onclick="addTableData(document.getElementById('fullName').value,document.getElementById('daysForBidud').value,document.getElementById('email').value)">Submit</button> -->
+  <button type="button" onclick="onSubmit(document.getElementById('fullName').value,document.getElementById('daysForBidud').value,document.getElementById('email').value)">Submit</button>
+</div>
 </form> 
 
 
-<table>
+<table id="myTable">
   <tr>
     <th>שם מלא</th>
     <th>ימים לבידוד</th>
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Mexico</td>
+    <th>כתובת מייל</th>
+    <th>כפתור הוצאה מבידוד</th>
+
   </tr>
  
 </table>
 
 </body>
+
 </html>
