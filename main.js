@@ -1,5 +1,5 @@
 // import {addTableData} from 'main.html'
-const onSubmit = (fullName,daysForBidud,email) =>{
+const addUserToTable = (fullName,daysForBidud,email) =>{
     if(validateEmail(email)===true && validateDays(daysForBidud)===true){
 
         let nowDate = new Date()
